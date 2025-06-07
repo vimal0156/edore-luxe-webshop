@@ -14,7 +14,7 @@ const Navigation = () => {
     { name: 'Journal', href: '/blog' },
     { name: 'Gift Cards', href: '/gift-cards' },
     { name: 'About', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Contact', to: '/contact' },
   ];
 
   return (
