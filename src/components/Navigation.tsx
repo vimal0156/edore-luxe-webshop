@@ -44,7 +44,15 @@ const Navigation = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
             {menuItems.map((item) => (
-              item.href.startsWith('#') ? (
+              item.to ? (
+                <Link
+                  key={item.name}
+                  to={item.to}
+                  className="text-sm font-medium tracking-wide text-foreground/80 hover:text-foreground transition-colors duration-300"
+                >
+                  {item.name}
+                </Link>
+              ) : item.href && item.href.startsWith('#') ? (
                 <a
                   key={item.name}
                   href={item.href}
