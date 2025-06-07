@@ -47,9 +47,10 @@ const GiftCards = () => {
               <div className="bg-gradient-to-br from-primary to-primary/80 text-primary-foreground p-8 rounded-lg aspect-[3/2] flex flex-col justify-between">
                 <div>
                   <img
-                    src="/lovable-uploads/64fbcab8-3020-484e-9e3c-f48f1fa5594f.png"
+                    src="/uploads/64fbcab8-3020-484e-9e3c-f48f1fa5594f.png"
                     alt="EDORE LUXE"
-                    className="h-8 w-auto object-contain filter invert"
+                    className="h-10 w-auto object-contain rounded-lg shadow border border-gray-200 bg-white/70 p-1 mx-auto"
+                    style={{boxShadow:'0 2px 12px 0 rgba(0,0,0,0.06)', background: 'rgba(255,255,255,0.7)'}}
                   />
                 </div>
                 <div>

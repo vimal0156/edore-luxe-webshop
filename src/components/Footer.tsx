@@ -10,9 +10,10 @@ const Footer = () => {
           <div className="md:col-span-2">
             <Link to="/">
               <img
-                src="/lovable-uploads/64fbcab8-3020-484e-9e3c-f48f1fa5594f.png"
+                src="/uploads/64fbcab8-3020-484e-9e3c-f48f1fa5594f.png"
                 alt="EDORE LUXE"
-                className="h-10 w-auto mb-4 object-contain"
+                className="h-12 w-auto mb-4 object-contain rounded-xl shadow-md border border-gray-200 bg-white/80 p-2"
+                style={{boxShadow:'0 2px 16px 0 rgba(0,0,0,0.04)', background: 'rgba(255,255,255,0.85)'}}
               />
             </Link>
             <p className="text-muted-foreground mb-6 max-w-md">
